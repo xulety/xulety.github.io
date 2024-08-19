@@ -53,7 +53,7 @@ img {
 }
 
 .logo img {
-    width: 150px; /* Tamaño del logo */
+    width: 100px; /* Tamaño del logo */
     height: auto; /* Mantiene la proporción */
 }
 
