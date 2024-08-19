@@ -234,7 +234,7 @@ input {
 }
 
 .footer .logo img {
-    width: 150px; /* Tamaño del logo en el pie de página */
+    width: 100px; /* Tamaño del logo en el pie de página */
     height: auto; /* Mantiene la proporción */
 }
 
