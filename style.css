@@ -233,8 +233,13 @@ input {
     padding: 50px 0;
 }
 
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+
 .footer .logo img {
-    width: 100px; /* Tamaño del logo en el pie de página */
+    width: 150px; /* Tamaño del logo en el pie de página */
     height: auto; /* Mantiene la proporción */
 }
 
