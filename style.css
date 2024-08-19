@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-*   {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-        list-style: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -48,6 +48,13 @@ img {
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px; /* Tamaño del logo */
+    height: auto; /* Mantiene la proporción */
 }
 
 .menu .navbar ul li {
@@ -117,7 +124,6 @@ img {
     margin-right: 25px;
     font-size: 17px;
     color: #ffffff;
-
 }
 
 .btn-1:hover {
@@ -134,7 +140,6 @@ h2 {
     font-size: 35px;
     margin-bottom: 45px;
 }
-
 
 .popular-content {
     display: flex;
@@ -228,6 +233,11 @@ input {
     padding: 50px 0;
 }
 
+.footer .logo img {
+    width: 150px; /* Tamaño del logo en el pie de página */
+    height: auto; /* Mantiene la proporción */
+}
+
 .link ul {
     display: flex;
 }
@@ -252,7 +262,7 @@ input {
         display: initial;
     }
 
-    .manu .navbar {
+    .menu .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -261,7 +271,7 @@ input {
         display: none;
     }
 
-    .menu .navbar ul li a :hover {
+    .menu .navbar ul li a:hover {
         color: #2a223a;
     }
 
